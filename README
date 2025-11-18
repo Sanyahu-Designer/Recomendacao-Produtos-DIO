@@ -1,0 +1,29 @@
+# 🛍️ Sistema de Recomendação por Similaridade de Imagens
+
+## 📋 Descrição
+Sistema de recomendação de produtos baseado em similaridade visual utilizando Deep Learning. Desenvolvido como projeto do curso de Machine Learning da DIO.
+
+## 🚀 Funcionalidades
+- Extração de features com ResNet50 pré-treinada
+- Cálculo de similaridade usando K-Nearest Neighbors
+- Interface interativa para testes
+- Visualização das recomendações
+
+## 🛠️ Tecnologias Utilizadas
+- Python 3.8+
+- TensorFlow/Keras
+- Scikit-learn
+- Matplotlib
+- OpenCV/PIL
+
+## 📦 Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/recomendacao-produtos.git
+
+# Entre no diretório
+cd recomendacao-produtos
+
+# Instale as dependências
+pip install -r requirements.txt
