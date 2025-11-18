@@ -27,3 +27,30 @@ cd recomendacao-produtos
 
 # Instale as dependências
 pip install -r requirements.txt
+
+🎯 Como Usar
+
+from main import ProductRecommender
+
+# Inicializar o sistema
+recommender = ProductRecommender()
+
+# Treinar com imagens
+recommender.train('images/')
+
+# Fazer recomendações
+recommender.recommend('images/produto1.jpg')
+
+📊 Exemplo de Resultado
+https://exemplo_recomendacao.png
+
+📝 Estrutura do Projeto
+
+recomendacao-produtos/
+├── images/          # Imagens dos produtos
+├── main.py          # Código principal
+├── requirements.txt # Dependências
+└── README.md        # Documentação
+
+👨‍💻 Autor
+Sandro Augusto Vascão
