@@ -20,7 +20,7 @@ Sistema de recomendação de produtos baseado em similaridade visual utilizando 
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/recomendacao-produtos.git
+git clone https://github.com/Sanyahu-Designer/Recomendacao-Produtos-DIO.git
 
 # Entre no diretório
 cd recomendacao-produtos
